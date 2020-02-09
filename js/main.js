@@ -168,3 +168,28 @@ modal5.onclick = function () {
 }
 
 
+// Get the modal
+var modal6 = document.getElementById("myModal6");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img6 = document.getElementById("phone");
+var modalImg6 = document.getElementById("phone-gbr");
+var captionText6 = document.getElementById("caption6");
+img6.onclick = function () {
+  modal6.style.display = "block";
+  modalImg6.src = this.src;
+  captionText6.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span6 = document.getElementsByClassName("close6")[0];
+
+window.onclick = function (event) {
+  if (event.target == modal6) {
+    modal6.style.display = "none";
+  }
+}
+// When the user clicks on <span> (x), close the modal
+modal6.onclick = function () {
+  modal6.style.display = "none";
+}

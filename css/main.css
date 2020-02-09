@@ -322,7 +322,7 @@ main {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption1, #caption2, #caption3, #caption4, #caption5 {
+#caption1, #caption2, #caption3, #caption4, #caption5, #caption6 {
   margin: auto;
   display: block;
   width: 80%;
@@ -334,7 +334,7 @@ main {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption1, #caption2, #caption3, #caption4, #caption5 {
+.modal-content, #caption1, #caption2, #caption3, #caption4, #caption5, #caption6 {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -345,7 +345,7 @@ main {
 }
 
 /* The Close Button */
-.close1, .close2, .close3, .close4, .close5 {
+.close1, .close2, .close3, .close4, .close5, .close6 {
   position: absolute;
   top: 15px;
   right: 100px;
@@ -355,8 +355,8 @@ main {
   transition: 0.3s;
 }
 
-.close1, .close2, .close3, .close4, .close5 :hover,
-.close1, .close2, .close3, .close4, .close5 :focus {
+.close1, .close2, .close3, .close4, .close5, .close6 :hover,
+.close1, .close2, .close3, .close4, .close5, .close6 :focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
