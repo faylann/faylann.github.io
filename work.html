@@ -1,213 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>View My Work</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
-  <title>View My Work</title>
-</head>
-
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
+
+      <nav class="menu">
+        <div class="menu-branding"></div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="work.html" class="nav-link">
+              My Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">
+        My
+        <span class="text-secondary">Work</span>
+      </h1>
+      <h2 class="sm-heading">
+        Check out some of my projects...
+      </h2>
+      <div class="projects">
+        <div class="item">
+          <a href="#!">
+            <img
+              id="farika"
+              src="img/projects/Farika.png"
+              alt="Java, MySQL, Android Studio"
+            />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
+          <a class="btn-light not-allowed"><i class="fas fa-eye"></i> Farika</a>
+          <a href="https://github.com/aldofadillaputra/Farika" class="btn-dark">
+            <i class="fab fa-github"></i> Github
           </a>
-        </li>
-        <li class="nav-item current">
-          <a href="work.html" class="nav-link">
-            My Work
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img
+              id="tunggal"
+              src="img/projects/Tunggal.png"
+              alt="PHP, MySQL, Codeigniter"
+            />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            Contact
+          <a class="btn-light not-allowed">
+            <i class="fas fa-eye"></i> Tunggal
           </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <main id="work">
-    <h1 class="lg-heading">
-      My
-      <span class="text-secondary">Work</span>
-    </h1>
-    <h2 class="sm-heading">
-      Check out some of my projects...
-    </h2>
-    <div class="projects">
-      <div class="item">
-        <a href="#!">
-          <img id="farika" src="img/projects/Farika.png" alt="Java, MySQL, Android Studio">
-        </a>
-        <p class="btn-light not-allowed">
-          <i class="fas fa-eye"></i> Farika
-        </p>
-        <a href="https://github.com/aldofadillaputra/Farika" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
+          <a
+            href="https://github.com/aldofadillaputra/CodeigniterCRUD"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img
+              id="zombie"
+              src="img/projects/Ninja v Zombie1.png"
+              alt="Game Maker"
+            />
+          </a>
+          <a class="btn-light not-allowed">
+            <i class="fas fa-eye"></i> Ninja v Zombie
+          </a>
+          <a class="not-allowed btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img id="movie" src="img/projects/Film.png" alt="Javascript, API" />
+          </a>
+          <a
+            href="https://aldofadillaputra.github.io/movie-search-imdb-api/"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Bukan IMDb
+          </a>
+          <a
+            href="https://github.com/aldofadillaputra/movie-search-imdb-api"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img
+              id="recipes"
+              src="img/projects/Recipes.png"
+              alt="Javascript, React, API"
+            />
+          </a>
+          <a
+            href="https://aldofadillaputra.github.io/recipes-search-app/"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Recipes Search App
+          </a>
+          <a
+            href="https://github.com/aldofadillaputra/recipes-search-app"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img id="phone" src="img/projects/TukangPhone.png" alt="React" />
+          </a>
+          <a href="https://tukangphone.netlify.com/" class="btn-light">
+            <i class="fas fa-eye"></i> Tukang Phone
+          </a>
+          <a
+            href="https://github.com/aldofadillaputra/ecommerce-react"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
       </div>
-      <div class="item">
-        <a href="#!">
-          <img id="tunggal" src="img/projects/Tunggal.png" alt="PHP, MySQL, Codeigniter">
-        </a>
-        <p class="btn-light not-allowed">
-          <i class="fas fa-eye"></i> Tunggal
-        </p>
-        <a href="https://github.com/aldofadillaputra/CodeigniterCRUD" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
+      <!-- The Modal -->
+      <div id="myModal1" class="modal">
+        <!-- The Close Button -->
+        <span class="close1">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="farika-gbr" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption1"></div>
       </div>
-      <div class="item">
-        <a href="#!">
-          <img id="zombie" src="img/projects/Ninja v Zombie1.png" alt="Game Maker">
-        </a>
-        <p class="btn-light not-allowed">
-          <i class="fas fa-eye"></i> Ninja v Zombie
-        </p>
-        <a class="not-allowed btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
+      <div id="myModal2" class="modal">
+        <!-- The Close Button -->
+        <span class="close2">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="tunggal-gbr" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption2"></div>
       </div>
-      <div class="item">
-        <a href="#!">
-          <img id="movie" src="img/projects/Film.png" alt="Javascript, API">
-        </a>
-        <a href="https://aldofadillaputra.github.io/movie-search-imdb-api/" class="btn-light">
-          <i class="fas fa-eye"></i> Bukan IMDb
-        </a>
-        <a href="https://github.com/aldofadillaputra/movie-search-imdb-api" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
+
+      <div id="myModal3" class="modal">
+        <!-- The Close Button -->
+        <span class="close3">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="zombie-gbr" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption3"></div>
       </div>
-      <div class="item">
-        <a href="#!">
-          <img id="recipes" src="img/projects/Recipes.png" alt="Javascript, React, API">
-        </a>
-        <a href="https://aldofadillaputra.github.io/recipes-search-app/" class="btn-light">
-          <i class="fas fa-eye"></i> Recipes Search App
-        </a>
-        <a href="https://github.com/aldofadillaputra/recipes-search-app" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
+
+      <div id="myModal4" class="modal">
+        <!-- The Close Button -->
+        <span class="close4">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="movie-gbr" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption4"></div>
       </div>
-      <div class="item">
-        <a href="#!">
-          <img id="phone" src="img/projects/TukangPhone.png" alt="React">
-        </a>
-        <a href="https://tukangphone.netlify.com/" class="btn-light">
-          <i class="fas fa-eye"></i> Tukang Phone
-        </a>
-        <a href="https://github.com/aldofadillaputra/ecommerce-react" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
+
+      <div id="myModal5" class="modal">
+        <!-- The Close Button -->
+        <span class="close5">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="recipes-gbr" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption5"></div>
       </div>
-    </div>
-    <!-- The Modal -->
-    <div id="myModal1" class="modal">
 
-      <!-- The Close Button -->
-      <span class="close1">&times;</span>
+      <div id="myModal6" class="modal">
+        <!-- The Close Button -->
+        <span class="close6">&times;</span>
 
-      <!-- Modal Content (The Image) -->
-      <img class="modal-content" id="farika-gbr">
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="phone-gbr" />
 
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption1"></div>
-    </div>
-    <div id="myModal2" class="modal">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption6"></div>
+      </div>
+    </main>
 
-      <!-- The Close Button -->
-      <span class="close2">&times;</span>
+    <footer id="main-footer">
+      Copyright &copy; 2020
+    </footer>
 
-      <!-- Modal Content (The Image) -->
-      <img class="modal-content" id="tunggal-gbr">
-
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption2"></div>
-    </div>
-
-
-    <div id="myModal3" class="modal">
-
-      <!-- The Close Button -->
-      <span class="close3">&times;</span>
-
-      <!-- Modal Content (The Image) -->
-      <img class="modal-content" id="zombie-gbr">
-
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption3"></div>
-    </div>
-
-
-
-    <div id="myModal4" class="modal">
-
-      <!-- The Close Button -->
-      <span class="close4">&times;</span>
-
-      <!-- Modal Content (The Image) -->
-      <img class="modal-content" id="movie-gbr">
-
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption4"></div>
-    </div>
-
-
-
-    <div id="myModal5" class="modal">
-
-      <!-- The Close Button -->
-      <span class="close5">&times;</span>
-
-      <!-- Modal Content (The Image) -->
-      <img class="modal-content" id="recipes-gbr">
-
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption5"></div>
-    </div>
-
-
-
-    <div id="myModal6" class="modal">
-
-      <!-- The Close Button -->
-      <span class="close6">&times;</span>
-
-      <!-- Modal Content (The Image) -->
-      <img class="modal-content" id="phone-gbr">
-
-      <!-- Modal Caption (Image Text) -->
-      <div id="caption6"></div>
-    </div>
-  </main>
-
-  <footer id="main-footer">
-    Copyright &copy; 2020
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
